@@ -1,27 +1,53 @@
 .clear {
 	clear: both;
+	list-style: none;
+	padding: 3px;
+	width: 50px;
 }
 
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	
 }
 
-#name {
+#name{
+	font-family: rokkitt; sans-serif;
 	float: left;
+	color: #444444;
 }
 
 #contactDetails {
 	float: right;
+	color: #181818;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	font-family: rokkitt; sans-serif;
+	color: #cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	color: #444444;
+	
+}
+h2{
+	font-family:  rokkitt; sans-serif;
+}
+html{
+	background-color: #f3f3f3;
+}
+
+hr{
+	margin: 5px;
+}
+
+.hr1{
+    border-top: solid;
+	color: #cf8a05;
 }
